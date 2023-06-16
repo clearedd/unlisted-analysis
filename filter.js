@@ -32,6 +32,7 @@ program
     .option(`--channel <name>`, `Filter by channel name`)
     .option(`--date <date>`, `Filter by date, examples: >2011-07-04 (before)`)
     .option(`--category <category>`, `Filter by category (check catLb.txt)`)
+    .option(`--title <words>`, `title must include. seperate with ","`)
 
 program.parse(process.argv);
 const options = program.opts();
@@ -72,8 +73,8 @@ function countRowsInCsv(filePath) {
             checked++;
             readline.cursorTo(process.stdout, 0);
             readline.clearLine(process.stdout, 0);
-
             process.stdout.write(`${(checked / total * 100).toFixed(2)}%`);
+            // filters
             if (options.views) {
                 if (options.views.startsWith(`>`) && x.views > options.views.replace(`>`, ``)) return; // less then
                 if (options.views.startsWith(`<`) && x.views < options.views.replace(`<`, ``)) return; // more then
@@ -86,6 +87,8 @@ function countRowsInCsv(filePath) {
                 if (options.date.startsWith(`=`) && new Date(x.upload) != new Date(options.views.replace(`=`, ``))) return; // more then
             }
             if (options.category && options.category != x.category) return;
+            if (options.title && !options.title.split(`,`).some(x => !x.title.includes(x))) return;
+            // save
             found++;
             csvWriter.writeRecords([x])
                 .catch((err) => console.error(`Error writing CSV file: ${err}`));

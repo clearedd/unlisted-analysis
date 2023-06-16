@@ -15,7 +15,7 @@ program
     .option('--width <x>', `max 32,727. default urls flag`)
     .option('--height <y>', `max 32,727. default channels flag`)
     .option('--background <color>', `default #00000000`)
-    .option('--out <filename>', ``)
+    .option('--out <file>', ``)
 
 program.parse(process.argv);
 const options = program.opts();
