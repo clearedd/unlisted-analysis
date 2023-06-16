@@ -1,0 +1,16 @@
+Gaming                10092 
+People & Blogs        6365  
+Entertainment         4953  
+Music                 2716  
+Film & Animation      2587  
+Science & Technology  2061  
+News & Politics       1833  
+Education             1488  
+Comedy                1180  
+Howto & Style         671   
+Travel & Events       568   
+Sports                553   
+Autos & Vehicles      271   
+Nonprofits & Activism 236   
+Pets & Animals        143   
+Trailers              67    
