@@ -7,24 +7,24 @@ const { Command, program } = require('commander');
 
 program
     .description(`A quick and dirty text to image converter, would love to get over the 32,727x32,727 max limit.`)
-    .option('--fontsize <size>', `default 30`)
+    .option('--fontsize <size>', ``,30)
     .option('--fontwidth <size>', `default fontsize*.6`)
-    .option('--channels <count>', `default 100`)
-    .option('--urls <count>', `default 100`)
+    .option('--channels <count>', ``,100)
+    .option('--urls <count>', ``,100)
     .option('--color', `horrible idea`)
     .option('--width <x>', `max 32,727. default urls flag`)
     .option('--height <y>', `max 32,727. default channels flag`)
-    .option('--background <color>', `default #00000000`)
-    .option('--out <file>', ``)
+    .option('--background <color>', ``,`#00000000`)
+    .option('--out <file>')
 
 program.parse(process.argv);
 const options = program.opts();
 
-const fontSize = options.fontsize || 30;
+const fontSize = options.fontsize;
 const fontWidth = options.fontwidth || fontSize * .6;
 // dimensions
-const chnCount = options.channels || 100;
-const urlCount = options.urls || 100;
+const chnCount = options.channels;
+const urlCount = options.urls;
 const width = options.width || fontWidth * (42 + (12 * urlCount));
 const height = options.height || fontSize * chnCount;
 console.log(`${width}x${height}`);

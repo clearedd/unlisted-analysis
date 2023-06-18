@@ -1,199 +1,32 @@
 Gaming                10092
 | tag sum:81281  tags:8484
-| fortnite             1.40%
-| apex                 0.71%
-| minecraft            0.67%
-| gameplay             0.67%
-| walkthrough          0.62%
-| live                 0.61%
-| play                 0.56%
-| playstation 4        0.54%
-| game                 0.54%
-| playthrough          0.53%
-| other 93.15%
 People & Blogs        6365
 | tag sum:13777  tags:2521
-| ryan boundless       1.17%
-| life in japan        0.89%
-| living in japan      0.84%
-| asmr                 0.66%
-| zvezda               0.65%
-| crvena               0.65%
-| liga                 0.64%
-| fudbal               0.63%
-| crvena zvezda        0.63%
-| utakmica             0.62%
-| other 92.62%
 Entertainment         4953
 | tag sum:25371  tags:3992
-| asmr                 0.89%
-| comedy               0.67%
-| funny                0.61%
-| ytpmv                0.48%
-| tingles              0.43%
-| live                 0.43%
-| mario                0.40%
-| whisper              0.39%
-| disney               0.37%
-| music                0.37%
-| other 94.96%
 Music                 2716
 | tag sum:14388  tags:2428
-| music                2.47%
-| ytpmv                1.84%
-| remix                0.99%
-| song                 0.80%
-| edm                  0.76%
-| rock                 0.63%
-| electronic music     0.63%
-| guitar               0.58%
-| cover                0.54%
-| video                0.53%
-| other 90.23%
 Film & Animation      2587
 | tag sum:9907   tags:1578
-| animation            4.31%
-| disney               2.99%
-| pixar                2.45%
-| disney pixar         1.65%
-| pixar movie          1.59%
-| mix                  1.32%
-| inside pixar         0.97%
-| behind the scene     0.97%
-| walt disney          0.90%
-| bmddehbus8tr         0.87%
-| other 81.98%
 Science & Technology  2061
 | tag sum:13630  tags:1973
-| kim komando          4.36%
-| technology           3.18%
-| science              3.02%
-| engineering          2.96%
-| honeywell            2.92%
-| honeywell now        2.85%
-| efficiency           2.84%
-| komando.com          2.48%
-| $d#10/05/2013$       1.52%
-| $m#sinclair- carrie$ 0.96%
-| other 72.91%
 News & Politics       1833
 | tag sum:8301   tags:671
-| drenthe              16.77%
-| rtvdrenthe           16.73%
-| nieuws               16.54%
-| sport                8.41%
-| assen                1.76%
-| emmen                1.64%
-| hoogeveen            1.52%
-| live                 0.89%
-| radio graffiti       0.88%
-| twitter shout outs   0.88%
-| other 33.98%
 Education             1488
 | tag sum:7384   tags:1468
-| living in japan      0.83%
-| nutmeg tavern        0.74%
-| college              0.70%
-| history              0.70%
-| townsends            0.70%
-| education            0.64%
-| tutorial             0.64%
-| 18th century         0.62%
-| jon townsend         0.53%
-| life in japan        0.49%
-| other 93.40%
 Comedy                1180
 | tag sum:6235   tags:1094
-| funny                2.79%
-| ytp                  2.28%
-| youtube              2.12%
-| comedy               2.07%
-| poop                 1.96%
-| lol                  1.94%
-| troll                1.62%
-| saucisse             1.60%
-| mario                0.98%
-| youtube poop         0.87%
-| other 81.78%
 Howto & Style         671
 | tag sum:3317   tags:685
-| fashion              1.33%
-| tutorial             1.27%
-| sheets               1.21%
-| style                1.03%
-| how to               0.99%
-| kim komando          0.78%
-| the                  0.69%
-| youtube              0.69%
-| easy                 0.69%
-| keys                 0.66%
-| other 90.65%
 Travel & Events       568
 | tag sum:3333   tags:550
-| travel               4.47%
-| tourism              3.39%
-| destination          3.27%
-| new zealand          2.82%
-| adventure            2.34%
-| japan                2.10%
-| traveling            2.04%
-| life in japan        2.01%
-| culture              2.01%
-| syusy blady          1.98%
-| other 73.57%
 Sports                553
 | tag sum:2862   tags:509
-| bodybuilding         3.14%
-| workout              2.41%
-| gym                  2.31%
-| fitness              2.24%
-| cutting              1.92%
-| shredded             1.89%
-| rios                 1.89%
-| zac                  1.89%
-| bsn                  1.82%
-| crvena zvezda        1.75%
-| other 78.76%
 Autos & Vehicles      271
 | tag sum:883    tags:290
-| ytpmv                2.38%
-| motorcycle           1.02%
-| diy                  1.02%
-| review               0.91%
-| bmw                  0.91%
-| travel               0.91%
-| motovlog             0.79%
-| vlog                 0.79%
-| motorbike            0.79%
-| how to               0.79%
-| other 89.69%
 Nonprofits & Activism 236
 | tag sum:227    tags:84
-| david suzuki foundation 4.85%
-| ytpmv                3.96%
-| youtube              2.64%
-| god                  2.20%
-| bible                1.76%
-| jesus                1.76%
-| coronavirus          1.76%
-| the                  1.76%
-| remix                1.76%
-| poop                 1.76%
-| other 75.77%
 Pets & Animals        143
 | tag sum:379    tags:138
-| jjayjoker            2.90%
-| latająca świnia      2.11%
-| animals              1.85%
-| remix                1.85%
-| ytpmv                1.85%
-| funny                1.58%
-| cute                 1.58%
-| presents             1.58%
-| maddv                1.32%
-| my                   1.32%
-| other 82.06%
 Trailers              67
 | tag sum:2      tags:1
-| get better math grades 100.00%
-| other 0.00%

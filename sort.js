@@ -20,6 +20,8 @@ program
     .option('--cache <json>', `use ${rawSort} to go faster`)
     .option(`--oneline`, `...`)
     .option(`--cattags`, `show category tags`)
+    .option(`--mintag <amount>`, `minimum amount of a tag for chnTagsLb.txt`, 10)
+    .option(`--excludeemptychannels`, `excludes channels that have no tags in the leaderboard`)
 
 program.parse(process.argv);
 const options = program.opts();
@@ -80,10 +82,10 @@ function KVtoArr(KV) {
                     String(x.title).toLowerCase()
                         .replace(/[()\[\]【】:|.,'!"*•]/g, ` `)
                         .split(/[ ]/)
-                        .forEach(x => {
-                            if (!mostUsedWords[x])
-                                mostUsedWords[x] = 1;
-                            else mostUsedWords[x]++;
+                        .forEach(y => {
+                            if (!mostUsedWords[y])
+                                mostUsedWords[y] = 1;
+                            else mostUsedWords[y]++;
                         });
                 }).on(`close`, () => {
                     console.log(`Sorting channels..`);
@@ -125,6 +127,41 @@ function KVtoArr(KV) {
         .forEach((x, i) =>
             fs.appendFileSync(`./chnLb.txt`, `${`${i + 1}#`.padEnd(5)} ${truncateString(x[0], 25).padEnd(30)} ${String(x[1]).padEnd(5)} ${x[2].join(` `)}${options.oneline ? `\\n` : `\n`}`)
         );
+
+    console.log(`Writing chnTagsLb.txt..`);
+    if (fs.existsSync(`./chnTagsLb.txt`))
+        fs.rmSync(`./chnTagsLb.txt`);
+    var chnTagSort = {};
+    chnSort.forEach(x => {
+        let tagSum = {};
+        x[1]
+            .filter(y => y.tags)
+            .forEach(vid => {
+                String(vid.tags)
+                    .toLowerCase()
+                    .split(`,`).forEach(tag => {
+                        if (!tagSum[tag])
+                            tagSum[tag] = 1;
+                        else tagSum[tag]++;
+                    });
+            });
+        chnTagSort[x[0]] = tagSum;
+    });
+    
+    KVtoArr(chnTagSort)
+        .sort((a, b) => Object.keys(a[1]).length - Object.keys(b[1]).length).reverse() // sort by diffrent tag usage. tag sum would just "who uploaded the most videos???"
+        .forEach((x, i) => {
+            let sortedTags = KVtoArr(x[1])
+                .sort((a, b) => a[1] - b[1]).reverse()
+                .filter(y => y[1] >= Number(options.mintag));
+            if (!options.excludeemptychannels || (options.excludeemptychannels && sortedTags.length))
+                fs.appendFileSync(`./chnTagsLb.txt`, `${x[0]}`
+                    + ` | tag sum:${Object.values(x[1]).reduce((a, b) => a + b, 0)} diff tags:${Object.values(x[1]).length}\n`);
+
+            sortedTags.forEach(y =>
+                fs.appendFileSync(`./chnTagsLb.txt`, `| ${String(y[1]).padEnd(5)} ${y[0]}\n`)
+            );
+        });
 
     console.log(`Writing catLb.txt..`);
     if (fs.existsSync(`./catLb.txt`))
