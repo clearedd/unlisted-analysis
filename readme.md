@@ -20,39 +20,44 @@ Boredom will kill, and finding gold is fun.
   - [`wordLb.txt`](./wordLb.txt) - most used words in titles[^1]. (Min word length is 3)
   - [`chnTagsLb.txt`](./chnTagsLb.txt) - most used tags on a channel.
 - [`filter.js`](./filter.js) filters `processedUnlisted.csv`. use `-h` flag for help.
+  - `--overview` generates an `overview.md`[^6]
 - [`waterfall.js`](./waterfall.js) - used to generate the image above. `-h`
 
 ## Results
 
-From 121403 videos to 35797 (thats ~30%).
+From 121,403 videos to 35,797 (thats ~30%).
 
-### [`wordLb.txt`](./wordLb.txt)
+### [`wordLb.txt`](./wordLb.txt)[^5]
 
 Most of the top words are conjunctions or articles.
 
-3.  live (since most unlist VODs)
-7.  fortnite
-8.  apex
-10. stream
-12. legends (either related to "League of Legends", "Japanese urban legends" or "Apex Legends")
-14. asmr
-15. sparta (ytpmv-s of [Sparta remix](https://www.youtube.com/watch?v=pWg6no8vELs))
-17. remix
-18. battle (the french are excited about "battle royals"/fortnite)
-19. elizabeth (mainly uploads of a TV show "General Hospital - Franco & Elizabeth")
-20. honeywell (some aviation company just puts their name in their titles)
-21. van (mainly from a Dutch news show "Drenthe Nu")
-22. minecraft
-23. franco (see 19. How franco appears 60 times less is beyond me)
-24. royale (see 18.)
-25. drenthe (see 21.)
-26. days (reuploads of "Days of Our Lives - Ciara & Ben" uploaded by the [same guy](https://www.youtube.com/@redbil1010) as 19.)
-29. 2017 (combination of 21, VOD dates and [Cold Garak Market](https://www.youtube.com/watch?v=xXrrEoOTYSA))
-30. lives (see 26.)
-31. ben (see 26.)
-32. 渋谷ハル ([Shibuya HAL](https://www.youtube.com/@ShibuyaHAL), a youtuber that tags his videos with his name. Also plays a loooot of Apex)
-33. sur (french word meaning "on")
-34. ciara (see 26.)
+YTPMV is a music video featuring various clips from tv shows, movies, commercials, etc. repeated or sped up/slowed down to fit to a beat, usually techno.
+
+num | count | tag | note
+--- | --- | --- | ---
+3  | 1319 | live | since most unlist VODs
+7  | 1021 | fortnite
+8  | 907 | apex
+10 | 805 | stream
+12 | 785 | legends | either related to "League of Legends", "Japanese urban legends" or "Apex legends"
+14 | 746 | asmr
+15 | 706 | sparta | ytpmv-s of [Sparta remix](https://www.youtube.com/watch?g6o8vELs)
+17 | 586 | remix
+18 | 576 | battle | the french are excited about "battle royals"/fortnite
+19 | 569 | elizabeth | mainly uploads of a TV show "General Hospital - Franco & Elizabeth"
+20 | 560 | honeywell | some aviation company just puts their name in their titles
+21 | 531 | van  | mainly from a Dutch news show "Drenthe Nu"
+22 | 504 | minecraft
+23 | 503 | franco | see 19. How franco appears 60 times less is beyond me
+24 | 456 | royale | see 18.
+26 | 443 | drenthe | see 21.
+27 | 424 | days | reuploads of "Days of Our Lives - Ciara & Ben" uploaded by the [same guy](htps://www.youtube.com/@redbil1010) as 19.
+29 | 409 | 2017 | combination of 21, VOD dates and [Cold Garak Market](https://www.ub.com/watch?v=xXrrEoOTYSA)
+30 | 397 | lives | see 26.
+31 | 381 | ben | see 26.
+32 | 366 | 渋谷ハル | [Shibuya HAL](https://www.youtube.com/@ShibuyaHAL), a youtuber  tgs his videos with his name. Also plays a loooot of Apex
+33 | 362 | sur | french word meaning "on"
+34 | 354 | ciara  | see 26.
 
 ### [`catLb.txt`](./catLb.txt)
 
@@ -191,8 +196,6 @@ Nonprofits & Activism 236
 | poop                 1.76%
 ```
 
-YTPMV is a music video featuring various clips from tv shows, movies, commercials, etc. repeated or sped up/slowed down to fit to a beat, usually techno.
-
 ```txt
 Pets & Animals        143
 | tag sum:379    tags:138
@@ -217,9 +220,11 @@ what.
   | Daniel's channel 60%
   ```
 
-[^1]: The following characters are replaced with a space ()[]【】:|.,'!"*•
+[^1]: The following characters are replaced with a space ()[]【】:|.,'!"*•🔴
 [^2]: tags that only appear once
 [^3]: "Video ad"-s excluded
 [^4]: takes around ~24h to request through 121403 video IDs at ~700ms ping.
+[^5]: cant use normal lists since broken ones (3.A 4.B 7.C) are fixed in the gh render
+[^6]: titles are excluded of all non alphabetical characters (excluding spaces)
 
 [[BLISS]](https://tube.cadence.moe/cant-think)

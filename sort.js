@@ -80,7 +80,7 @@ function KVtoArr(KV) {
                     else channels[x.author].push(x);
 
                     String(x.title).toLowerCase()
-                        .replace(/[()\[\]【】:|.,'!"*•]/g, ` `)
+                        .replace(/[()\[\]【】:|.,'!"*•🔴]/g, ` `)
                         .split(/[ ]/)
                         .forEach(y => {
                             if (!mostUsedWords[y])
