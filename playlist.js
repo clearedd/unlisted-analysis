@@ -116,7 +116,7 @@ const port = 8080;
                     requestBody: {
                         "snippet": {
                             "title": `Unlisted ${new Date().toISOString().split(`T`)[0].replace(/-/g, `/`)}`,
-                            "description": "Generated with blood red pupils with https://github.com/clearedd/unlisted-analysis",
+                            "description": "Generated with blood red pupils and https://github.com/clearedd/unlisted-analysis",
                             "tags": ["unlisted", "generated"],
                             "defaultLanguage": "en"
                         },
