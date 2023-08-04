@@ -1,16 +1,16 @@
 the                  4020
 and                  1587
-live                 1319
+live                 1466
 part                 1240
 with                 1154
 for                  1107
-fortnite             1021
+fortnite             1023
 apex                 907
 video                820
-stream               805
-you                  788
+stream               807
+you                  789
 legends              785
-new                  769
+new                  770
 asmr                 746
 sparta               706
 your                 593
@@ -37,14 +37,14 @@ this                 352
 trailer              352
 time                 348
 day                  347
-livestream           343
+livestream           345
 let                  319
 life                 315
-play                 305
+play                 306
 episode              289
 2020                 285
 japan                280
-mario                273
+mario                276
 super                269
 disney               266
 what                 264
@@ -74,9 +74,9 @@ meč                  206
 update               206
 are                  206
 liga                 205
+sounds               205
 first                205
 patreon              204
-sounds               202
 voor                 201
 not                  200
 collab               198
@@ -93,9 +93,9 @@ gets                 180
 night                178
 zvezda               177
 mix                  175
+top                  174
 games                174
 online               173
-top                  173
 earth                172
 review               170
 srbije               168
@@ -111,7 +111,7 @@ open                 161
 zelda                160
 that                 159
 but                  157
-pubg                 155
+pubg                 156
 full                 155
 story                155
 claire               154
@@ -125,10 +125,9 @@ wow                  145
 challenge            144
 mouth                144
 real                 144
-🔴live               143
+among                143
 sonic                143
 song                 143
-among                140
 16x9                 140
 road                 140
 making               140
@@ -137,7 +136,7 @@ friends              136
 1/3                  135
 3/3                  133
 cameron              133
-gta                  132
+gta                  133
 meme                 132
 last                 132
 pro                  132
@@ -155,9 +154,9 @@ preview              128
 feat                 128
 intro                127
 big                  127
+good                 127
 exclusive            126
 les                  126
-good                 126
 why                  126
 black                124
 ear                  124
@@ -182,10 +181,10 @@ wars                 115
 hypixel              113
 player               113
 help                 111
+custom               110
 tavern               110
 1920x1080            110
 birthday             110
-custom               109
 only                 109
 google               109
 radio                108
@@ -207,10 +206,10 @@ kevin                101
 come                 101
 speed                101
 just                 100
+nouveau              99
+roblox               99
 unlisted             99
-nouveau              98
 een                  98
-roblox               98
 windows              98
 short                97
 camera               97
@@ -244,11 +243,11 @@ corner               88
 april                88
 force                88
 2016                 88
+100                  88
 week                 87
 high                 87
 party                87
 simulator            87
-100                  87
 ultimate             86
 channel              86
 twilight             86
@@ -256,26 +255,26 @@ got                  86
 everyday             85
 scene                85
 adventure            85
+happy                85
 nutmeg               84
 into                 84
 mp4                  84
-happy                84
 welcome              84
 netflix              83
 15s                  83
 chat                 83
 dance                83
+стрим                82
 judge                82
 mini                 82
 base                 82
 mobile               82
 plays                82
+beat                 82
 pack                 82
 bonus                82
-стрим                81
 teaser               81
 glitch               81
-beat                 81
 roleplay             80
 die                  80
 map                  80
@@ -337,15 +336,16 @@ con                  68
 fire                 68
 power                68
 personal             67
+tour                 67
 paint                67
 apps                 66
-tour                 66
 sunday               66
 win                  66
 post                 66
 work                 66
 stuff                66
 shock                66
+money                66
 use                  66
 find                 66
 down                 66
@@ -356,12 +356,12 @@ zone                 65
 subscribers          65
 cars                 65
 blue                 65
-money                65
 storia               64
 aviation             64
 words                64
 streams              64
 mod                  64
+smash                64
 easy                 63
 event                63
 dream                63
@@ -380,7 +380,6 @@ journey              61
 run                  61
 der                  61
 movie                61
-smash                61
 interactive          61
 3/4                  60
 toy                  60
@@ -426,10 +425,12 @@ business             56
 call                 56
 description          56
 hot                  56
+shop                 56
 undertale            56
 city                 56
 dragon               56
 ocarina              55
+playthrough          55
 talk                 55
 morning              55
 never                55
@@ -445,7 +446,6 @@ save                 55
 fall                 54
 studio               54
 freedom              54
-shop                 54
 gaming               54
 emmen                53
 thibes               53
@@ -462,10 +462,10 @@ boy                  53
 rock                 53
 look                 53
 summer               53
-playthrough          52
 uit                  52
 bumper               52
 20th                 52
+sub                  52
 college              52
 tips                 52
 without              52
@@ -475,17 +475,16 @@ cat                  52
 desk                 51
 boutique             51
 door                 51
+licking              51
 try                  51
 giveaway             51
 young                51
-sub                  51
 way                  51
 hand                 51
 ninja                51
 want                 51
 apple                51
 dumb                 51
-licking              50
 republic             50
 prva                 50
 mlp                  50
@@ -539,6 +538,7 @@ something            47
 where                47
 should               47
 start                47
+kid                  47
 joe                  47
 lost                 47
 commando             47
@@ -558,7 +558,6 @@ through              46
 clip                 46
 male                 46
 style                46
-kid                  46
 presents             46
 magic                46
 解説配信                 45
@@ -578,6 +577,7 @@ hair                 45
 fight                45
 film                 45
 legend               45
+deutsch              44
 juni                 44
 naar                 44
 three                44
@@ -590,19 +590,18 @@ via                  44
 news                 44
 meet                 44
 build                44
+extra                44
 club                 44
 green                44
 does                 44
 2013                 44
 terrain              43
-deutsch              43
 biden                43
 skyrim               43
 laptop               43
 tournament           43
 ways                 43
 hit                  43
-extra                43
 really               43
 history              43
 前期日本1位/世界5位          42
@@ -704,6 +703,8 @@ conquer              37
 viary                37
 saison               37
 thailand             37
+directo              37
+drawing              37
 maandag              37
 highlights           37
 srpska               37
@@ -731,7 +732,7 @@ zombies              37
 quick                37
 rap                  37
 friendship           37
-drawing              36
+jetzt                36
 asmr-                36
 animal               36
 testing              36
@@ -748,7 +749,6 @@ learn                36
 android              36
 moon                 36
 control              36
-jetzt                35
 gunge                35
 uac                  35
 twitter              35
@@ -758,6 +758,7 @@ health               35
 example              35
 round                35
 rank                 35
+grind                35
 egg                  35
 energy               35
 her                  35
@@ -785,9 +786,9 @@ meer                 34
 change               34
 podcast              34
 skyblock             34
+partie               34
 around               34
 retour               34
-grind                34
 once                 34
 gift                 34
 while                34
@@ -811,7 +812,6 @@ material             34
 needed               34
 crazy                34
 boundless            33
-directo              33
 concert              33
 saturday             33
 whispers             33
@@ -825,7 +825,6 @@ sals                 33
 mail                 33
 pixar’s              33
 hardcore             33
-partie               33
 boss                 33
 hotel                33
 being                33
@@ -879,6 +878,7 @@ inaudible            31
 simcity              31
 hoogeveen            31
 weer                 31
+kisses               31
 moet                 31
 mac                  31
 taking               31
@@ -904,7 +904,6 @@ epi-win              30
 vivo                 30
 sykkuno              30
 5/5                  30
-kisses               30
 nederlands           30
 tegen                30
 charity              30
@@ -937,6 +936,7 @@ cod                  29
 amazon               29
 iron                 29
 teste                29
+together             29
 bikini               29
 its                  29
 weekend              29
@@ -967,7 +967,6 @@ centricide           28
 compilation          28
 makeup               28
 smith                28
-together             28
 tonight              28
 smart                28
 candy                28
@@ -1033,6 +1032,7 @@ break                27
 mega                 27
 fox                  27
 eat                  27
+nothing              27
 against              27
 elite                27
 bundle               27
@@ -1040,11 +1040,13 @@ spy                  27
 attend               26
 gadgets              26
 scrims               26
+neue                 26
 tag                  26
 bootleg              26
 dit                  26
 hype                 26
 zaterdag             26
+mise                 26
 james                26
 ads                  26
 plan                 26
@@ -1064,6 +1066,7 @@ insane               26
 finally              26
 pvp                  26
 wedding              26
+omg                  26
 multiplayer          26
 plaze                26
 adum                 26
@@ -1074,7 +1077,6 @@ place                26
 area                 26
 science              26
 dawn                 26
-nothing              26
 strike               26
 hidden               26
 room                 26
@@ -1082,7 +1084,6 @@ cr所属                 25
 4000ダメージ             25
 creativity           25
 dayz                 25
-neue                 25
 poppy                25
 das                  25
 access               25
@@ -1111,10 +1112,10 @@ literally            25
 jack                 25
 content              25
 cut                  25
-omg                  25
 alpha                25
 gtlive               25
 overview             25
+trigger              25
 always               25
 fail                 25
 buy                  25
@@ -1124,6 +1125,7 @@ hathaway             24
 luxury               24
 jeux                 24
 matchmaking          24
+perso                24
 primus               24
 gas                  24
 theaters             24
@@ -1131,7 +1133,6 @@ drents               24
 heeft                24
 wil                  24
 vrijdag              24
-mise                 24
 feel                 24
 miss                 24
 duty                 24
@@ -1162,7 +1163,6 @@ cream                24
 milk                 24
 cool                 24
 doctor               24
-trigger              24
 coffee               24
 character            24
 women                24
@@ -1170,7 +1170,6 @@ scary                24
 block                24
 web                  24
 berkshire            23
-perso                23
 rena                 23
 supernanny           23
 arena                23
@@ -1193,6 +1192,7 @@ shopping             23
 attempt              23
 kit                  23
 ladies               23
+wrong                23
 18th                 23
 replay               23
 their                23
@@ -1238,7 +1238,6 @@ north                22
 gamer                22
 lyric                22
 wants                22
-wrong                22
 por                  22
 luca                 22
 taste                22
@@ -1591,6 +1590,7 @@ wireless             17
 lens                 17
 hands                17
 sugar                17
+evolution            17
 fastest              17
 updates              17
 как                  17
@@ -1608,6 +1608,7 @@ creator              17
 south                17
 troll                17
 turns                17
+nice                 17
 scan                 17
 #11                  17
 pewdiepie            17
@@ -1647,6 +1648,7 @@ football             17
 joueur               16
 pairs                16
 bento                16
+solos                16
 aerospace            16
 transect             16
 pilatus              16
@@ -1674,7 +1676,6 @@ worth                16
 sad                  16
 process              16
 caillou              16
-evolution            16
 hang                 16
 drum                 16
 magyar               16
@@ -1695,8 +1696,8 @@ casual               16
 youtubers            16
 deluxe               16
 clean                16
+enfin                16
 station              16
-nice                 16
 brothers             16
 kan                  16
 must                 16
@@ -1740,10 +1741,10 @@ bowser               16
 légendaire           15
 atks                 15
 undead               15
-solos                15
 nba                  15
 funhaus              15
 bo3                  15
+abos                 15
 felicia              15
 apartment            15
 @calthekidftw        15
@@ -1808,7 +1809,6 @@ mais                 15
 faire                15
 ces                  15
 lab                  15
-enfin                15
 rising               15
 rosen                15
 select               15
@@ -1870,7 +1870,6 @@ burnin               14
 reception            14
 apex®                14
 mechanics            14
-abos                 14
 stranger             14
 instant              14
 1280x720             14
@@ -1884,6 +1883,7 @@ anh                  14
 dein                 14
 exploring            14
 reacting             14
+jugando              14
 tuesday              14
 competition          14
 streekgenoten        14
@@ -1945,6 +1945,7 @@ hold                 14
 peak                 14
 ytpbr                14
 had                  14
+mw2                  14
 uber                 14
 jerry                14
 chocolate            14
@@ -1982,10 +1983,10 @@ past                 14
 sign                 14
 boat                 14
 those                14
+madness              14
 thanks               14
 2010                 14
 コントローラー              13
-🗡️                  13
 achete               13
 scrim                13
 abonnes              13
@@ -2011,7 +2012,6 @@ quiz                 13
 slightly             13
 13s                  13
 proof                13
-jugando              13
 patch                13
 helping              13
 noos                 13
@@ -2021,6 +2021,7 @@ wie                  13
 bideo                13
 foot                 13
 cringe               13
+crush                13
 whole                13
 orange               13
 mark                 13
@@ -2077,7 +2078,6 @@ baja                 13
 needs                13
 720p                 13
 tennis               13
-mw2                  13
 sources              13
 bored                13
 torneo               13
@@ -2112,7 +2112,6 @@ yee                  13
 pirates              13
 spaghetti            13
 duck                 13
-madness              13
 プロゲーマー               12
 日本1位/世界4位            12
 最高ダメージ6000           12
@@ -2165,7 +2164,6 @@ stand                12
 giving               12
 fitness              12
 leven                12
-crush                12
 treant               12
 react                12
 hier                 12
@@ -2328,6 +2326,7 @@ hyper                11
 meditation           11
 mins                 11
 17s                  11
+went                 11
 saying               11
 champions            11
 isn                  11
@@ -2348,6 +2347,7 @@ shadows              11
 masterclass          11
 vore                 11
 united               11
+plucking             11
 such                 11
 listening            11
 coevorden            11
@@ -2515,7 +2515,6 @@ therapy              10
 stress               10
 literature           10
 doki                 10
-plucking             10
 buddy                10
 teach                10
 yandere              10
@@ -2764,7 +2763,6 @@ imediabay            9
 20s                  9
 aci                  9
 moveset              9
-buying               9
 walkthrough          9
 protect              9
 cambodia             9
@@ -2905,6 +2903,7 @@ este                 9
 starts               9
 smoke                9
 pumpkin              9
+codes                9
 spike                9
 breathing            9
 taco                 9
@@ -3011,6 +3010,7 @@ gros                 8
 rifle                8
 スマブラsp               8
 elements             8
+codice               8
 новый                8
 unravel              8
 devices              8
@@ -3194,6 +3194,7 @@ corn                 8
 generation           8
 finn                 8
 donald               8
+pgn                  8
 rolling              8
 #15                  8
 mia                  8
@@ -3374,6 +3375,8 @@ disponible           7
 bolero               7
 takeoff              7
 nueva                7
+играю                7
+mw3                  7
 terminology          7
 objectif             7
 heart-warming        7
@@ -3384,7 +3387,6 @@ xxxtentacion         7
 4-9-18               7
 9-17-18              7
 wwe                  7
-codice               7
 smartpath®           7
 maj                  7
 kommt                7
@@ -3394,6 +3396,7 @@ helicopter           7
 без                  7
 odea                 7
 esports              7
+gemi                 7
 7-9-19               7
 overrated            7
 hindi                7
@@ -3431,6 +3434,7 @@ blitz                7
 patrol               7
 swoop                7
 database             7
+camping              7
 list                 7
 adam                 7
 mauler               7
@@ -3672,6 +3676,7 @@ nature               7
 membership           7
 explainer            7
 mundo                7
+bodies               7
 remember             7
 trop                 7
 tried                7
@@ -3705,7 +3710,6 @@ primo                7
 9/11                 7
 incredible           7
 bald                 7
-codes                7
 pay                  7
 leg                  7
 cafe                 7
@@ -3810,11 +3814,9 @@ shred                6
 csrv                 6
 siklavis             6
 shiko                6
-mw3                  6
 lourd                6
 mort                 6
 defi                 6
-🔴gemi               6
 potatoes             6
 sambqa               6
 dnd                  6
@@ -3836,7 +3838,6 @@ direction            6
 noodlerella          6
 noodles              6
 chuffed              6
-играю                6
 v-bucks              6
 champs               6
 chaine               6
@@ -3921,7 +3922,6 @@ pvolv                6
 blame                6
 answering            6
 debut                6
-camping              6
 affordable           6
 swimwear             6
 dvd                  6
@@ -4068,7 +4068,6 @@ clutch               6
 gummy                6
 projects             6
 poker                6
-pgn                  6
 burn                 6
 skincare             6
 zetten               6
@@ -4241,7 +4240,6 @@ director             6
 plotagon             6
 saunders             6
 kállay               6
-bodies               6
 complex              6
 rainy                6
 h&m                  6
@@ -4612,6 +4610,7 @@ searching            5
 salzburg             5
 hol                  5
 election             5
+nuova                5
 materials            5
 mayo                 5
 meilleur             5
@@ -4958,6 +4957,7 @@ ahead                5
 fog                  5
 koronavírus-járvány  5
 kelly                5
+rep                  5
 трејлер              5
 непријател           5
 trke                 5
@@ -5303,7 +5303,6 @@ contre               4
 jazy                 4
 paces                4
 itinerary            4
-🐔🔴                 4
 doppiaggio           4
 legendaire           4
 neige                4
@@ -5448,7 +5447,7 @@ valentino            4
 5-24-18              4
 6-4-18               4
 6-14-18              4
-🚅transport          4
+�transport           4
 6-15-18              4
 6-20-18              4
 7-5-18               4
@@ -5458,7 +5457,7 @@ fr/                  4
 jogo                 4
 bo2                  4
 7-11-18              4
-🔥🔥                 4
+verlosung            4
 modo                 4
 hamburger            4
 martial              4
@@ -5649,7 +5648,6 @@ formula              4
 gewinnspiel          4
 mill                 4
 louis                4
-nuova                4
 chess                4
 mleveni              4
 mleti                4
@@ -5714,6 +5712,7 @@ eddsworld            4
 slots                4
 charter              4
 both                 4
+avatar               4
 controlled           4
 warzone              4
 fighterz             4
@@ -5860,7 +5859,6 @@ renders              4
 roasted              4
 transformation       4
 excited              4
-spending             4
 reload               4
 recover              4
 raided               4
@@ -6196,7 +6194,6 @@ smo                  4
 šta                  4
 coconut              4
 stella               4
-rep                  4
 kako                 4
 gamers               4
 silk                 4
@@ -6412,6 +6409,7 @@ shade                4
 swamp                4
 vietnam              4
 ama                  4
+мой                  4
 попробовал           4
 sua                  4
 hitler               4
@@ -6588,8 +6586,6 @@ décolle              3
 bombes               3
 stylé                3
 tambour              3
-🔴je                 3
-🔴le                 3
 schleich             3
 guerre               3
 enchaîne             3
@@ -6626,7 +6622,6 @@ alina                3
 dmitri               3
 fables               3
 valouzz              3
-😱😱                 3
 yeezy                3
 nic                  3
 zapis                3
@@ -6635,11 +6630,9 @@ creatore➜            3
 jyestur              3
 rits                 3
 borog                3
-playthrough🗡️       3
 “divorce”            3
 elims                3
 stable               3
--「🔴mario            3
 anti-bullying        3
 meyer                3
 ltm                  3
@@ -6665,6 +6658,7 @@ supersonic1014       3
 devotional           3
 soar                 3
 acheté               3
+hakito               3
 tzortzis             3
 hamza                3
 houseparty           3
@@ -6694,7 +6688,6 @@ pinup2               3
 bathtub              3
 diwali               3
 buh-                 3
-🔞🔞🔞               3
 званку               3
 апаем                3
 2020-04-25           3
@@ -6876,7 +6869,6 @@ arts                 3
 combats              3
 picks                3
 vinci                3
-🔴se                 3
 scammed              3
 punta                3
 lou                  3
@@ -6884,6 +6876,7 @@ onk                  3
 planet3              3
 144hz                3
 scope                3
+euch                 3
 nazis                3
 onision              3
 sonntag              3
@@ -6914,6 +6907,7 @@ nipsey               3
 saludo               3
 battlerite           3
 replica              3
+mencari              3
 aujourd              3
 victorias            3
 firestorm            3
@@ -6953,13 +6947,13 @@ intelligent          3
 jimmy                3
 “the                 3
 typical              3
+provini              3
 huh                  3
 3-9-18               3
 часть                3
 i̇le                 3
 portable             3
 passing              3
-verlosung            3
 temporal             3
 k/d                  3
 reaper               3
@@ -7066,6 +7060,7 @@ opção                3
 not?                 3
 hopes                3
 dab                  3
+taupe                3
 2-4-19               3
 guess?               3
 новости              3
@@ -7075,13 +7070,13 @@ tuxedo               3
 dassault             3
 svs                  3
 общаемся             3
+поднимаем            3
 3-13-19              3
 2-5-19               3
 evolved              3
 tsm                  3
 day?                 3
 girlfriends          3
-🔴among              3
 todays               3
 janet                3
 5-26-16              3
@@ -7125,7 +7120,6 @@ preparing            3
 obsessed             3
 rodriguez            3
 regalando            3
-🔴directo            3
 8-16-19              3
 peppers              3
 грабим               3
@@ -7500,7 +7494,6 @@ ricegum              3
 gordon               3
 torch                3
 mandela              3
-avatar               3
 zack                 3
 amateur              3
 onionskin            3
@@ -7689,6 +7682,7 @@ mountains            3
 попытка              3
 turned               3
 waterfalls           3
+hermano              3
 presets              3
 ptr                  3
 revision             3
@@ -7779,6 +7773,8 @@ accurate             3
 peep                 3
 rosa                 3
 wishes               3
+parcours             3
+ruinen               3
 itself               3
 aware                3
 work??               3
@@ -8699,7 +8695,6 @@ trunks               3
 про                  3
 fasten               3
 интернет             3
-мой                  3
 england              3
 invitation           3
 capitalism           3
@@ -8823,6 +8818,7 @@ home?                3
 awareness            3
 apology              3
 pancakes             3
+1-10                 3
 verified             3
 g-news               3
 nutshack             3
@@ -9117,7 +9113,6 @@ devenue              2
 failles              2
 mettre               2
 peux                 2
-🔴mise               2
 c/s                  2
 entraine             2
 deux                 2
@@ -9257,7 +9252,7 @@ vgoruby              2
 casse                2
 usfia                2
 6pm                  2
-🔵😍#tots            2
+�#tots               2
 calcio               2
 dump                 2
 skill                2
@@ -9306,9 +9301,8 @@ kari                 2
 сидим                2
 eng/lat              2
 6v6                  2
--「🔴minecraft」       2
+minecraft」           2
 ultimate」            2
--「🔴smash            2
 disgusting           2
 cringey              2
 mitchell             2
@@ -9390,7 +9384,6 @@ descripcion          2
 jugar                2
 architects           2
 prizes               2
-🔴hakito             2
 apologist            2
 dawah                2
 resin                2
@@ -9484,7 +9477,6 @@ epik                 2
 pinup3               2
 clicks               2
 recycle              2
-🔴поднимаем          2
 changer              2
 10-летнему           2
 zoro                 2
@@ -9602,6 +9594,7 @@ onigiri              2
 onions               2
 skinless             2
 rent                 2
+overcooked           2
 bmx                  2
 stretching           2
 tripod               2
@@ -9609,6 +9602,7 @@ snipes               2
 guardians            2
 tights               2
 reckoning            2
+argentino            2
 ewuosho              2
 ikenocity            2
 high-tech            2
@@ -9658,7 +9652,6 @@ hardstop             2
 tfault               2
 grappin              2
 horsey               2
-🔴fortnite           2
 pray                 2
 leviathan            2
 konveekou            2
@@ -9847,7 +9840,6 @@ heidi                2
 hassle               2
 drones               2
 berkah               2
-mencari              2
 teman                2
 stranded             2
 honte                2
@@ -9991,6 +9983,7 @@ robots               2
 bona-petite          2
 nguyen               2
 jerusalem            2
+зарабатывать?        2
 марафон              2
 russo                2
 import               2
@@ -10156,7 +10149,6 @@ singleplayer         2
 rube                 2
 битва                2
 norsk                2
-euch                 2
 100-0                2
 который              2
 pico                 2
@@ -10306,7 +10298,6 @@ potes                2
 assist               2
 neistat              2
 casey                2
-provini              2
 வாங்க                2
 galactic             2
 #brakczatu           2
@@ -10403,6 +10394,7 @@ alignment            2
 gh-franco            2
 stydia               2
 débat                2
+�grinding            2
 live#2               2
 deception            2
 ofertas              2
@@ -10417,7 +10409,6 @@ institute            2
 gbas                 2
 #evol#raze           2
 cage                 2
-livestream🔴codes    2
 rebel                2
 regalo               2
 detente              2
@@ -10446,7 +10437,6 @@ loans                2
 nier                 2
 synergy              2
 proforno             2
-🔴stream             2
 видосы               2
 méxico               2
 castillo             2
@@ -10556,9 +10546,7 @@ zan                  2
 russ                 2
 isaiah               2
 stuntin              2
-taupe                2
 typhoon              2
-live🔴               2
 pissed               2
 dollmaker            2
 boneless             2
@@ -10604,7 +10592,8 @@ obsidian             2
 atl                  2
 anarchist            2
 choses               2
-🔥fortnite           2
+customgames          2
+�fortnite            2
 4-29-19              2
 5-21-19              2
 finalmente           2
@@ -10822,6 +10811,7 @@ sized                2
 bangers              2
 cull                 2
 zachary              2
+�☟⚐⚐                 2
 tacos                2
 adkins               2
 accessing            2
@@ -10950,6 +10940,7 @@ smiling              2
 philza               2
 semi-perfect         2
 250k                 2
+fivem                2
 purchase             2
 cerebral             2
 haphazard            2
@@ -10995,6 +10986,7 @@ cashmere             2
 gewinnen             2
 11a                  2
 probleme             2
+freunden             2
 superfood            2
 hl2                  2
 enjoy                2
@@ -11432,6 +11424,7 @@ nbc                  2
 m&m                  2
 gonba                2
 ester                2
+clase                2
 dropped              2
 goldfinger           2
 otk                  2
@@ -11820,11 +11813,11 @@ xhf                  2
 outfit               2
 nukebuster           2
 feargal              2
-hermano              2
 minutos              2
 diva                 2
 fotos                2
 tye                  2
+padres               2
 prefieres            2
 expansion?           2
 jitter               2
@@ -12082,7 +12075,7 @@ stempel              2
 makkelijk            2
 koken                2
 casper               2
-aheg👅o              2
+aheg                 2
 asuka                2
 gered                2
 molen                2
@@ -13116,6 +13109,7 @@ supercheap           2
 stash                2
 11/24/2017           2
 ekipom               2
+изи                  2
 mvm                  2
 kremom               2
 specials             2
@@ -13238,7 +13232,6 @@ fare                 2
 madeira              2
 thesis               2
 upsilon              2
-🔴pgn                2
 phazon               2
 tandy                2
 péter                2
@@ -13489,6 +13482,7 @@ models               2
 blonde               2
 glamour              2
 inscription          2
+interna              2
 petr                 2
 papyrus              2
 amoeba               2
@@ -13952,7 +13946,6 @@ everytime            2
 homestuck            2
 lipstick             2
 meow                 2
-1-10                 2
 world-               2
 wrath                2
 olympics             2
@@ -14084,13 +14077,14 @@ heater               2
 106                  2
 middle               18
 bikinis              11
-went                 11
+buying               9
 install              8
 reminder             7
 drip                 7
 luck                 6
 grammy               5
 division             5
+spending             4
 werewolf             4
 success              4
 testen               4
@@ -14100,8 +14094,6 @@ upgrades             3
 weeb                 3
 messup               3
 mics                 3
-parcours             3
-ruinen               3
 skylander            2
 sneaking             2
 welcomes             2

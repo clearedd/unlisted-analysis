@@ -13,15 +13,16 @@ program
     .option(`--noheader <headers>`, `list headers to not include. seperate with ","`)
     .option(`--overview`, `gives an overview of (probably) a channel`)
     .option(`--overviewlimit <limit>`, `list limit for overview`, 100)
+    .option(`--input <csv>`, `Input csv`, `./processedUnlisted.csv`)
+    .option(`--output <csv>`, `Output csv`, `./filtered.csv`)
 
 program.parse(process.argv);
 const options = program.opts();
 
 const csvw = require('csv-writer').createObjectCsvWriter;
 
-const csvFile = `./processedUnlisted.csv`;
-
-const out = `./filtered.csv`;
+const csvFile = options.input;
+const out = options.output;
 if (fs.existsSync(out)) fs.rmSync(out);
 
 const headers = [
