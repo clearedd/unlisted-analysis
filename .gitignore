@@ -3,3 +3,4 @@ package-lock.json
 filtered.*
 overview.*
 client_secret_*
+playlist_cache.json

@@ -24,6 +24,8 @@
 // https://console.cloud.google.com/iam-admin/settings
 // or https://console.cloud.google.com/cloud-resource-manager
 
+// Precondition check failed.
+// If you get the above error, we are screwed.
 
 const port = 8080;
 (async () => {
@@ -33,8 +35,6 @@ const port = 8080;
     const process = require(`process`);
     const { OAuth2Client } = require('google-auth-library');
     const express = require(`express`);
-    const path = require(`path`);
-    var https = require('https');
     var http = require('http');
     const csv = require('csv-parser');
     const fs = require(`fs-extra`);
@@ -48,7 +48,35 @@ const port = 8080;
     var videoIdsFile = await rl.question(`Input video ids csv${defcsv ? ` (default: ${defcsv})` : ``} : `);
     if (!videoIdsFile) videoIdsFile = defcsv;
     if (!fs.existsSync(videoIdsFile)) return console.log(`CSV dosent exist: ${videoIdsFile}`);
-    var existingPlaylistId = await rl.question(`Existing playlist id (if empty, new will be created) : `);
+    // cache
+    const cachePath = `./playlist_cache.json`;
+    var cache = {
+        id: "",
+        videos: [],
+    };
+    if (fs.existsSync(cachePath))
+        cache = fs.readJSONSync(cachePath);
+    else fs.writeJsonSync(cachePath, cache);
+
+    // on quit
+    var quit = async (err) => {
+        if (err)
+            console.log(err);
+        fs.writeJsonSync(cachePath, cache);
+        process.exit();
+    }
+    process.on('exit', () => quit());
+    //catches ctrl+c event
+    process.on('SIGINT', () => quit());
+    // catches "kill pid" (for example: nodemon restart)
+    process.on('SIGUSR1', () => quit());
+    process.on('SIGUSR2', () => quit());
+    //catches uncaught exceptions
+    process.on('uncaughtException', (err, origin) => quit(err));
+
+    // ask for playlist id
+    if (!cache.id)
+        cache.id = await rl.question(`Existing playlist id (if empty, new will be created) : `);
     rl.close();
 
     // Create an OAuth2 client
@@ -106,8 +134,8 @@ const port = 8080;
 
 
     async function makePlaylist() {
-        var playlist = { id: existingPlaylistId };
-        if (!existingPlaylistId)
+        var playlist = { id: cache.id };
+        if (!cache.id)
             try {
                 // Create playlist
                 // https://developers.google.com/youtube/v3/docs/playlists/insert
@@ -126,6 +154,7 @@ const port = 8080;
                     },
                 });
                 playlist = playlist.data;
+                cache.id = playlist.id;
                 console.log(`Hello uhh.. ${playlist.snippet.channelTitle}!`);
                 console.log(`Created playlist "${playlist.snippet.title}"\nURL: https://youtube.com/playlist?list=${playlist.id}`);
             } catch (err) {
@@ -133,18 +162,6 @@ const port = 8080;
                 console.log(err.message);
                 return;
             }
-
-        // https://developers.google.com/youtube/v3/docs/playlistItems
-        var playlistItems;
-        try {
-            playlistItems = await youtube.playlistItems.list({
-                part: 'snippet',
-                playlistId: playlist.id,
-            });
-        } catch (err) {
-            console.log(`Failed listing playlists videos.. :(`);
-        }
-        const existingVideoIds = playlistItems.data.items.map(item => item.snippet.resourceId.videoId);
 
         var videoIds = [];
         await new Promise(r =>
@@ -155,17 +172,16 @@ const port = 8080;
                         console.log(`CSV dosent include "videoid" header`);
                         return process.exit(1);
                     }
-                    videoIds.push(x.videoid);
+                    if (!cache.videos.includes(x.videoid))
+                        videoIds.push(x.videoid);
                 }).on(`close`, r)
         )
 
-        const newVideoIds = videoIds.filter(id => !existingVideoIds.includes(id));
-
-        if (newVideoIds.length == 0) return console.log('All videos are already in the playlist.');
-        for (var i = 0; i < newVideoIds.length; i++) {
-            let id = newVideoIds[i];
+        if (videoIds.length == 0) return console.log('All videos are already in the playlist.');
+        for (var i = 0; i < videoIds.length; i++) {
+            let id = videoIds[i];
             try {
-                console.log(`Adding ${i}/${newVideoIds.length} ${id}`);
+                console.log(`Adding ${i}/${videoIds.length} ${id}`);
                 let res = await youtube.playlistItems.insert({
                     part: 'snippet',
                     requestBody: {
@@ -179,13 +195,14 @@ const port = 8080;
                     },
                 });
                 res = res.data.snippet;
-                console.log(`Added (${res.position}) ${res.title}`);
+                console.log(`Added (${res.position}) ${res.title}`); // the position can get fucky if you set sorting to something other then manual
+                cache.videos.push(id);
             } catch (err) {
                 console.log(`Failed adding video with id of ${id}`);
                 console.log(err.message);
                 process.exit(1);
             }
         }
-        console.log(`${newVideoIds.length > 1 ? `All ` : ``}${newVideoIds.length} video${newVideoIds.length > 1 ? `s` : ``} added`);
+        console.log(`${videoIds.length > 1 ? `All ` : ``}${videoIds.length} video${videoIds.length > 1 ? `s` : ``} added`);
     }
 })();

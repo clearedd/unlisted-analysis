@@ -22,7 +22,7 @@ Boredom will kill, and finding gold is fun.
 - [`filter.js`](./filter.js) filters `processedUnlisted.csv`. use `-h` flag for help.
   - `--overview` generates an `overview.md`[^6]
 - [`playlist.js`](./playlist.js) - generates a youtube playlist to make your viewing experience just a bit better (read the top of the file for instructions)
-  - [my attempt](https://www.youtube.com/playlist?list=PL9PJbB19jd9UIZuXt2YSbGWhwxSVDVUto) since you can only add ~200 videos a day
+  - [my attempt](https://www.youtube.com/playlist?list=PL9PJbB19jd9Uu08cISqpd65_QgmbXbn5o) since you can only add ~200 videos a day
 - [`waterfall.js`](./waterfall.js) - used to generate the image above. `-h`
 
 ## Results
