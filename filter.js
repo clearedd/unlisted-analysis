@@ -10,6 +10,7 @@ program
     .option(`--date <date>`, `Filter by date, examples: >2011-07-04 (before)`)
     .option(`--category <category>`, `Filter by category (check catLb.txt)`)
     .option(`--title <words>`, `title must include. seperate with ","`)
+    .option(`--channelVideoLimit <count>`, `limit the amount of videos per channel`, -1)
     .option(`--noheader <headers>`, `list headers to not include. seperate with ","`)
     .option(`--overview`, `gives an overview of (probably) a channel`)
     .option(`--overviewlimit <limit>`, `list limit for overview`, 100)
@@ -94,6 +95,7 @@ var formatNum = x => Intl.NumberFormat(`en`, { notaion: `compact` }).format(x);
         tags: {},
         words: {},
     };
+    var channelVideoLimit = [];
     fs.createReadStream(csvFile)
         .pipe(csv())
         .on('data', async x => {
@@ -134,6 +136,10 @@ var formatNum = x => Intl.NumberFormat(`en`, { notaion: `compact` }).format(x);
             }
             if (options.category && options.category != x.category) return;
             if (options.title && !String(options.title).toLowerCase().split(`,`).some(y => String(x.title).toLowerCase().includes(y))) return;
+            if (options.channelVideoLimit && options.channelVideoLimit != -1) {
+                if (channelVideoLimit.includes(x.author)) return;
+                channelVideoLimit.push(x.author);
+            }
 
             // overview
             if (options.overview) {
