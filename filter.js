@@ -10,9 +10,12 @@ program
     .option(`--date <date>`, `Filter by date, examples: >2011-07-04 (before)`)
     .option(`--category <category>`, `Filter by category (check catLb.txt)`)
     .option(`--title <words>`, `title must include, prefix with "-" to exclude. seperate with ","`)
+    .option(`--channelVideoLimit <count>`, `limit the amount of videos per channel`, -1)
     .option(`--noheader <headers>`, `list headers to not include. seperate with ","`)
     .option(`--overview`, `gives an overview of (probably) a channel`)
     .option(`--overviewlimit <limit>`, `list limit for overview`, 100)
+    .option(`--input <csv>`, `Input csv`, `./processedUnlisted.csv`)
+    .option(`--output <csv>`, `Output csv`, `./filtered.csv`)
     .option(`-d --debug`)
 
 program.parse(process.argv);
@@ -20,9 +23,8 @@ const options = program.opts();
 
 const csvw = require('csv-writer').createObjectCsvWriter;
 
-const csvFile = `./processedUnlisted.csv`;
-
-const out = `./filtered.csv`;
+const csvFile = options.input;
+const out = options.output;
 if (fs.existsSync(out)) fs.rmSync(out);
 
 const headers = [
@@ -95,6 +97,7 @@ var formatNum = x => Intl.NumberFormat(`en`, { notaion: `compact` }).format(x);
         words: {},
     };
     var videos = {};
+    var channelVideoLimit = {};
     fs.createReadStream(csvFile)
         .pipe(csv())
         .on('data', async x => {
@@ -124,11 +127,13 @@ var formatNum = x => Intl.NumberFormat(`en`, { notaion: `compact` }).format(x);
                 });
 
             // filters
+            // view filter
             if (options.views) {
                 if (options.views.startsWith(`>`) && x.views > options.views.replace(`>`, ``)) return; // less then
                 if (options.views.startsWith(`<`) && x.views < options.views.replace(`<`, ``)) return; // more then
                 if (options.views.startsWith(`=`) && x.views != options.views.replace(`=`, ``)) return; // more then
             }
+            // channel filter
             if (options.channel && options.channel.toLocaleLowerCase() != x.author.toLocaleLowerCase()) return;
             if (options.date) {
                 if (options.date.startsWith(`>`) && new Date(x.upload) > new Date(options.views.replace(`>`, ``))) return; // less then
@@ -136,9 +141,16 @@ var formatNum = x => Intl.NumberFormat(`en`, { notaion: `compact` }).format(x);
                 if (options.date.startsWith(`=`) && new Date(x.upload) != new Date(options.views.replace(`=`, ``))) return; // more then
             }
             if (options.category && options.category != x.category) return;
-            if (options.title && !String(options.title).toLocaleLowerCase().split(`,`).every(y => 
+            // title filter
+            if (options.title && !String(options.title).toLocaleLowerCase().split(`,`).every(y =>
                 y.startsWith(`-`) ? !String(x.title).toLocaleLowerCase().includes(y.replace(`-`, ``)) : String(x.title).toLocaleLowerCase().includes(y)
             )) return;
+            // channel video limit
+            if (options.channelVideoLimit && options.channelVideoLimit != -1) {
+                if (channelVideoLimit[x.author] > options.channelVideoLimit) return;
+                if (!channelVideoLimit[x.author]) channelVideoLimit[x.author] = 1;
+                else channelVideoLimit[x.author]++;
+            }
 
             // overview
             if (options.overview) {
@@ -173,7 +185,7 @@ var formatNum = x => Intl.NumberFormat(`en`, { notaion: `compact` }).format(x);
                 readline.cursorTo(process.stdout, 0);
                 readline.clearLine(process.stdout, 0);
             }
-            if(!found) return console.log(`No results :(`);
+            if (!found) return console.log(`No results :(`);
             console.log(`Done! ${found}/${totalRows} (${(found / totalRows * 100).toFixed(2)}%)`);
             // overview
             if (options.overview) {
@@ -187,7 +199,7 @@ var formatNum = x => Intl.NumberFormat(`en`, { notaion: `compact` }).format(x);
                     .filter(x => ![`overview`, `overviewlimit`].includes(x))
                     .forEach(x => ov += `${x}: ${options[x]}<br>\n`);
 
-                    if(!Object.keys(options))
+                if (!Object.keys(options))
                     ov += `**NONE?!**\n`
 
                 // ## Dataset
